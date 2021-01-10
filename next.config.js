@@ -3,7 +3,9 @@ module.exports = {
     return {
       '/': { page: '/' },
       '/1': { page: '/1' },
-      //'/404': { page: '/404' },
+      '/2': { page: '/2' },
+      '/3': { page: '/3' },
+      '/4': { page: '/4' },
     }
   },
   trailingSlash: true,
