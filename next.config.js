@@ -9,8 +9,4 @@ module.exports = {
     }
   },
   trailingSlash: true,
-  //errorPages: '',
-  //errorPagesUseHtml: false,
-  //basePath: '/next',
-  //assetPrefix: '/next',
 }
