@@ -7,16 +7,16 @@ const Post: NextPage = () => {
     <>
       <Head>
         <title>〔雨ニモマケズ〕</title>
-        <meta name="description" content="〔雨ニモマケズ〕宮澤賢治" />
+        <meta name="description" content="〔雨ニモマケズ〕宮澤 賢治" />
         <meta property="og:title" content="〔雨ニモマケズ〕" />
-        <meta property="og:description" content="〔雨ニモマケズ〕宮澤賢治" />
+        <meta property="og:description" content="〔雨ニモマケズ〕宮澤 賢治" />
         <meta property="og:url" content="" />
       </Head>
       <Image borderRadius="md" src="/img/nigaoe_miyazawa_kenji.png" />
       <Heading as="h2" size="lg" mt={4}>
         〔雨ニモマケズ〕
-        <Badge ml="1" fontSize={{ base: '14px', lg: '16px' }}>
-          宮澤賢治
+        <Badge ml={4} fontSize={{ base: '14px', lg: '16px' }}>
+          宮澤 賢治
         </Badge>
       </Heading>
       <Text mt={4}>
