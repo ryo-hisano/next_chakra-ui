@@ -10,7 +10,7 @@ const Post: NextPage = () => {
         <meta name="description" content="羅生門 芥川 竜之介" />
         <meta property="og:title" content="羅生門" />
         <meta property="og:description" content="羅生門 芥川 竜之介" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://nontan-next-chakra.vercel.app/3/" />
       </Head>
       <Image borderRadius="md" src="/img/akutagawa_ryunosuke.png" />
       <Heading as="h2" size="lg" mt={4}>

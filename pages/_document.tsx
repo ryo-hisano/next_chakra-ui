@@ -38,6 +38,11 @@ class MyDocument extends Document<Props> {
               }}
             />
           </>
+          <title>青空文庫読むくん</title>
+          <meta name="description" content="青空文庫読むくん" />
+          <meta property="og:title" content="青空文庫読むくん" />
+          <meta property="og:description" content="青空文庫読むくん" />
+          <meta property="og:url" content="https://nontan-next-chakra.vercel.app/" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width,initial-scale=1" />
           <meta name="format-detection" content="telephone=no" />

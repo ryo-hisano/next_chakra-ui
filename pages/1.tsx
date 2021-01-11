@@ -10,7 +10,7 @@ const Post: NextPage = () => {
         <meta name="description" content="〔雨ニモマケズ〕宮澤 賢治" />
         <meta property="og:title" content="〔雨ニモマケズ〕" />
         <meta property="og:description" content="〔雨ニモマケズ〕宮澤 賢治" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://nontan-next-chakra.vercel.app/1/" />
       </Head>
       <Image borderRadius="md" src="/img/nigaoe_miyazawa_kenji.png" />
       <Heading as="h2" size="lg" mt={4}>

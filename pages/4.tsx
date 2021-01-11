@@ -10,7 +10,7 @@ const Post: NextPage = () => {
         <meta name="description" content="走れメロス 太宰 治" />
         <meta property="og:title" content="走れメロス" />
         <meta property="og:description" content="走れメロス 太宰 治" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://nontan-next-chakra.vercel.app/4/" />
       </Head>
       <Image borderRadius="md" src="/img/dazai_osamu.png" />
       <Heading as="h2" size="lg" mt={4}>

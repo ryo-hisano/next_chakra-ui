@@ -1,9 +1,9 @@
 const sitemap = require('nextjs-sitemap-generator')
 
 sitemap({
-  baseUrl: 'https://test.jp',
+  baseUrl: 'https://nontan-next-chakra.vercel.app/',
   pagesDirectory: __dirname + '/pages',
-  targetDirectory: 'out',
+  targetDirectory: 'public',
   ignoredExtensions: ['js', 'map'],
   ignoredPaths: ['[fallback]'],
   nextConfigPath: __dirname + '/next.config.js',

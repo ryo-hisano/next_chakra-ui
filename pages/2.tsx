@@ -10,7 +10,7 @@ const Post: NextPage = () => {
         <meta name="description" content="雪女 小泉 八雲" />
         <meta property="og:title" content="雪女" />
         <meta property="og:description" content="雪女 小泉 八雲" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://nontan-next-chakra.vercel.app/2/" />
       </Head>
       <Image borderRadius="md" src="/img/nigaoe_koizumi_yakumo.png" />
       <Heading as="h2" size="lg" mt={4}>
