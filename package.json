@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && node sitemap.js",
+    "build": "next build && node sitemap.js",
     "start": "next start"
   },
   "dependencies": {
