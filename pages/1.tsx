@@ -1,17 +1,13 @@
-import Head from 'next/head'
 import { NextPage } from 'next'
 import { Badge, Image, Heading, Text } from '@chakra-ui/react'
+import Layout from '../components/layout'
 
 const Post: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>〔雨ニモマケズ〕</title>
-        <meta name="description" content="〔雨ニモマケズ〕宮澤 賢治" />
-        <meta property="og:title" content="〔雨ニモマケズ〕" />
-        <meta property="og:description" content="〔雨ニモマケズ〕宮澤 賢治" />
-        <meta property="og:url" content="https://nontan-next-chakra.vercel.app/1/" />
-      </Head>
+    <Layout
+      title="〔雨ニモマケズ〕（宮澤 賢治）"
+      description="〔雨ニモマケズ〕（宮澤 賢治）の説明文です。"
+    >
       <Image borderRadius="md" src="/img/nigaoe_miyazawa_kenji.png" />
       <Heading as="h2" size="lg" mt={4}>
         〔雨ニモマケズ〕
@@ -95,7 +91,7 @@ const Post: NextPage = () => {
         <br />
         南無安立行菩薩
       </Text>
-    </>
+    </Layout>
   )
 }
 

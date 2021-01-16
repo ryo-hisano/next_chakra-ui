@@ -8,5 +8,5 @@ module.exports = {
       '/4': { page: '/4' },
     }
   },
-  trailingSlash: true,
+  //trailingSlash: true,
 }

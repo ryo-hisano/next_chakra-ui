@@ -1,17 +1,10 @@
-import Head from 'next/head'
 import { NextPage } from 'next'
 import { Badge, Image, Heading, Text } from '@chakra-ui/react'
+import Layout from '../components/layout'
 
 const Post: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>雪女</title>
-        <meta name="description" content="雪女 小泉 八雲" />
-        <meta property="og:title" content="雪女" />
-        <meta property="og:description" content="雪女 小泉 八雲" />
-        <meta property="og:url" content="https://nontan-next-chakra.vercel.app/2/" />
-      </Head>
+    <Layout title="雪女（小泉 八雲）" description="雪女（小泉 八雲）の説明文です。">
       <Image borderRadius="md" src="/img/nigaoe_koizumi_yakumo.png" />
       <Heading as="h2" size="lg" mt={4}>
         雪女
@@ -62,7 +55,7 @@ const Post: NextPage = () => {
         彼女が叫んでいる最中、彼女の声は細くなって行った、風の叫びのように、――それから彼女は輝いた白い霞となって屋根の棟木の方へ上って、それから煙出しの穴を通ってふるえながら出て行った。……もう再び彼女は見られなかった。
         <br />
       </Text>
-    </>
+    </Layout>
   )
 }
 

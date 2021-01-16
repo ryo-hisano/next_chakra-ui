@@ -1,17 +1,10 @@
-import Head from 'next/head'
 import { NextPage } from 'next'
 import { Badge, Image, Heading, Text } from '@chakra-ui/react'
+import Layout from '../components/layout'
 
 const Post: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>羅生門</title>
-        <meta name="description" content="羅生門 芥川 竜之介" />
-        <meta property="og:title" content="羅生門" />
-        <meta property="og:description" content="羅生門 芥川 竜之介" />
-        <meta property="og:url" content="https://nontan-next-chakra.vercel.app/3/" />
-      </Head>
+    <Layout title="羅生門（芥川 竜之介）" description="羅生門（芥川 竜之介）の説明文です。">
       <Image borderRadius="md" src="/img/akutagawa_ryunosuke.png" />
       <Heading as="h2" size="lg" mt={4}>
         羅生門
@@ -866,7 +859,7 @@ const Post: NextPage = () => {
         <br />
         （大正四年九月）
       </Text>
-    </>
+    </Layout>
   )
 }
 

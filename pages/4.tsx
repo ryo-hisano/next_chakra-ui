@@ -1,17 +1,10 @@
-import Head from 'next/head'
 import { NextPage } from 'next'
 import { Badge, Image, Heading, Text } from '@chakra-ui/react'
+import Layout from '../components/layout'
 
 const Post: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>走れメロス</title>
-        <meta name="description" content="走れメロス 太宰 治" />
-        <meta property="og:title" content="走れメロス" />
-        <meta property="og:description" content="走れメロス 太宰 治" />
-        <meta property="og:url" content="https://nontan-next-chakra.vercel.app/4/" />
-      </Head>
+    <Layout title="走れメロス（太宰 治）" description="走れメロス（太宰 治）の説明文です。">
       <Image borderRadius="md" src="/img/dazai_osamu.png" />
       <Heading as="h2" size="lg" mt={4}>
         走れメロス
@@ -698,7 +691,7 @@ const Post: NextPage = () => {
         <br />
         （古伝説と、シルレルの詩から。）
       </Text>
-    </>
+    </Layout>
   )
 }
 
