@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 
 const Home: NextPage = () => {
   return (
-    <Layout title="TOPページ" description="TOPページの説明文です。">
+    <Layout title="TOPページ" description="TOPページの説明文です。" slug="">
       <SimpleGrid columns={[1, 2]} spacing={4}>
         <Link href="/1">
           <Box p={4} borderWidth="1px" cursor="pointer">

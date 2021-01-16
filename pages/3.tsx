@@ -4,7 +4,11 @@ import Layout from '../components/layout'
 
 const Post: NextPage = () => {
   return (
-    <Layout title="羅生門（芥川 竜之介）" description="羅生門（芥川 竜之介）の説明文です。">
+    <Layout
+      title="羅生門（芥川 竜之介）"
+      description="羅生門（芥川 竜之介）の説明文です。"
+      slug="3"
+    >
       <Image borderRadius="md" src="/img/akutagawa_ryunosuke.png" />
       <Heading as="h2" size="lg" mt={4}>
         羅生門

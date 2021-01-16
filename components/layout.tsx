@@ -16,12 +16,14 @@ type Props = {
   children?: ReactNode
   title?: string
   description?: string
+  slug?: string
 }
 
 const Layout: React.FC<Props> = ({
   children,
   title = '青空文庫読むくん',
   description = '青空文庫が読めるみたいです。',
+  slug,
 }: Props) => (
   <>
     <Head>
@@ -51,7 +53,8 @@ const Layout: React.FC<Props> = ({
       <meta property="og:site_name" content="青空文庫読むくん" />
       <meta property="og:title" content={title + ' | 青空文庫読むくん'} />
       <meta property="og:description" content={description} />
-      <meta property="og:url" content="https://nontan-next-chakra.vercel.app/" />
+      <meta property="og:url" content={'https://nontan-next-chakra.vercel.app/' + slug} />
+      <meta property="og:image" content="https://nontan-next-chakra.vercel.app/img/ogp.png" />
       <title>{title + ' | 青空文庫読むくん'}</title>
     </Head>
     <ChakraProvider resetCSS>

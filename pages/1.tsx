@@ -7,6 +7,7 @@ const Post: NextPage = () => {
     <Layout
       title="〔雨ニモマケズ〕（宮澤 賢治）"
       description="〔雨ニモマケズ〕（宮澤 賢治）の説明文です。"
+      slug="1"
     >
       <Image borderRadius="md" src="/img/nigaoe_miyazawa_kenji.png" />
       <Heading as="h2" size="lg" mt={4}>

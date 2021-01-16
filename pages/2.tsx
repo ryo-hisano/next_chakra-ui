@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const Post: NextPage = () => {
   return (
-    <Layout title="雪女（小泉 八雲）" description="雪女（小泉 八雲）の説明文です。">
+    <Layout title="雪女（小泉 八雲）" description="雪女（小泉 八雲）の説明文です。" slug="2">
       <Image borderRadius="md" src="/img/nigaoe_koizumi_yakumo.png" />
       <Heading as="h2" size="lg" mt={4}>
         雪女

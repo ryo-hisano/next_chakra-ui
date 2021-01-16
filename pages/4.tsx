@@ -4,7 +4,11 @@ import Layout from '../components/layout'
 
 const Post: NextPage = () => {
   return (
-    <Layout title="走れメロス（太宰 治）" description="走れメロス（太宰 治）の説明文です。">
+    <Layout
+      title="走れメロス（太宰 治）"
+      description="走れメロス（太宰 治）の説明文です。"
+      slug="4"
+    >
       <Image borderRadius="md" src="/img/dazai_osamu.png" />
       <Heading as="h2" size="lg" mt={4}>
         走れメロス
