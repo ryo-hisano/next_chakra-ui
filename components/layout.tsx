@@ -23,7 +23,7 @@ const Layout: React.FC<Props> = ({
   children,
   title = '青空文庫読むくん',
   description = '青空文庫が読めるみたいです。',
-  slug,
+  slug = '',
 }: Props) => (
   <>
     <Head>
